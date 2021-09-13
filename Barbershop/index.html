@@ -1,12 +1,130 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <!--Etiqueta de favicon--> 
+    <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon">
+    <!--Link de Bootstrapp-->    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!--Link de FontAwesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Link de Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,900&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <!--Hoja de Estilo propia compilada por Sass-->
+     <link rel="stylesheet" href="assets/css/main.css">
+    <title>Desafio Barbershop</title>
 </head>
 <body>
-    
+    <!--Barra de Navegacion-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="assets/img/logo.png" alt="" width="30" height="24"></a>
+        <div class="collapse navbar-collapse position-absolute bottom-75 end-0" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link color-active" aria-current="page" href="#">Trabajos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link aria-current="page" href="#">Horas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Contacto</a>
+              </li>
+          </ul>
+        </div>
+      </div>  
+    </nav>
+
+
+    <!--Header-->
+    <main class="main-section">
+        <div class="contianer_main-section position-relative">
+            <img src="assets/img/post-image.jpg" alt="" width="100%">
+            <h1 class="main-section-title position-absolute top-50 start-50 translate-middle">5 formas de cuidar tu corte de cabello</h1>
+            <i class="fas fa-angle-double-down fa-3x position-absolute bottom-0 start-50 translate-middle text-light"></i>
+        </div>
+        <section class="section_main-section">
+            <h3 class="subtitulo_main-section">12 de Abril 2021</h3>
+            <p class="parrafo_main-section lh-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quia eaque nobis provident sint deserunt eveniet saepe quaerat recusandae non natus totam, deleniti ipsam? Illum pariatur sunt distinctio quos similique!. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt iure reprehenderit cupiditate? Odit, cumque aut. </p>
+            <p class="parrafo_main-section lh-lg ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora itaque perferendis omnis deserunt facere fugiat nam consequuntur officiis atque nesciunt alias laborum, quo ab quibusdam! Facilis commodi consequuntur exercitationem dolores?. Torem ipsum dolor, sit amet consectetur adipisicing elit. Tempora itaque perferendis. Sit ea harum iste non, assumenda, nemo obcaecati natus, molestias laudantium alias eius cumque quae!</p>
+            <p class="parrafo_main-section lh-lg">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora itaque perferendis omnis deserunt facere fugiat nam consequuntur officiis atque nesciunt alias laborum, quo ab quibusdam! Facilis commodi consequuntur exercitationem dolores?. Sit ea harum iste non, assumenda, nemo obcaecati natus, molestias laudantium alias eius cumque quae!</p>
+            <p class="parrafo_main-section lh-lg">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora itaque perferendis omnis deserunt facere fugiat nam consequuntur officiis atque nesciunt alias laborum, quo ab quibusdam! Facilis commodi consequuntur exercitationem dolores?</p>
+            <p class="parrafo_main-section lh-lg">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Litaque perferendis omnis deserunt facere fugiat nam consequuntur officiis atque nesciunt <span class="color-active"> alias laborum, quo ab quibusdam!</span> Facilis commodi consequuntur exercitationem dolores?. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, rerum unde voluptate quo laudantium inventore delectus quos sed rem eos velit quisquam placeat pariatur porro tempora nobis explicabo! Similique, quasi.</p>
+        </section>
+
+        <div class="button_final d-grid gap-2 d-md-block">
+            <button class="btn btn-secondary rounded-pill rounded-3 button_final-element" type="button">Compartir</button>
+            <button class="btn btn-secondary rounded-pill rounded-3 button_final-element" type="button">Comentar en Twitter</button>
+          </div>
+    </main>
+    <!--Linea de Division de seccion-->
+    <hr  class="dropdown-divider">
+
+    <!--Seccion de Thumbnail-Autor-->
+    <aside class="container seccion-final">
+      <div class="card mb-3 d-flex  border-0 my-3" style="max-width: 650px;">
+        <div class="row g-0 tarjeta-seccion">
+          <div class="col-md-4">
+            <img src="assets/img/naomi-thai.png" class="img-fluid rounded-circle" alt="...">
+          </div>
+          <div class="col-md-8 ">
+            <div class="card-body">
+              <h5 class="card-title">Naomi Thai</h5>
+              <h5 class= "card-links">@Naothai</h5>
+              <h5 class= "card-links">depelos.com</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="card-text tarjeta-seccion">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    </aside>
+    <!--Paginación-->
+    <div class="paginacion">
+        <nav aria-label="Page navigation example">
+            <ul class="pagination justify-content-center">
+                <li class="page-item disabled">
+                    <span class="page-link">Anterior</span>
+                </li>
+            <li class="page-item">
+                <a class="page-link" href="#">1</a>
+            </li>
+            <li class="page-item page-item-activo" aria-current="page">
+                <span class="page-link page-link-activo">2</span>
+            </li>
+            <li class="page-item">
+                <a class="page-link" href="#">3</a>
+            </li>
+            <li class="page-item disabled">
+                <a class="page-link" href="#">Siguiente</a>
+            </li>
+            </ul>
+        </nav>
+    </div>  
+    </aside>
+
+        <!--Footer-->
+    <footer class="footer container-fluid bg-dark position-relative">
+       <div class="position-absolute top-50 start-50 translate-middle text-center">
+        <img src="assets/img/logo.png" alt="Logo BarberShop" width="100" height="50">
+       </div>
+        
+    </footer>
+
+
+
+
+
+    <!--Script de Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -1,3 +1,104 @@
+body {
+  height: 100vh;
+  background-color: #FFF;
+  background-position: 80%;
+}
 
+/* Reset*/
+body {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+footer {
+  height: 8rem;
+}
+
+.main-section-title {
+  color: #FFF;
+  font-family: "Playfair Display", serif;
+  font-size: xxx-large;
+  font-weight: 700;
+  font-style: italic;
+  text-align: center;
+}
+
+.section_main-section {
+  padding: 4rem;
+}
+
+.parrafo_main-section {
+  padding-top: 2rem;
+}
+
+.color-active {
+  color: #D76C69;
+}
+
+.seccion-final {
+  display: flex;
+}
+
+.tarjeta-seccion {
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.card-title {
+  font-family: "Playfair Display", serif, serif;
+  font-size: 30px;
+  font-weight: 900;
+  font-style: oblique;
+  color: #222323;
+}
+
+.card-links {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: #E56353;
+}
+
+.button_final-element {
+  font-size: small;
+  margin: 2rem;
+  padding: 1rem 1rem;
+  border-radius: 3px;
+  color: #E6e7e7;
+}
+.button_final-element:hover {
+  background-color: #D1D1D1;
+}
+
+nav-link {
+  color: #D76C69;
+}
+
+.paginacion {
+  font-family: "Roboto", sans-serif;
+  font-size: small;
+}
+
+.page-link {
+  color: #6C6E70;
+}
+
+.page-link-activo {
+  background-color: #6C6E70;
+  color: #E6e7e7;
+}
 
 /*# sourceMappingURL=main.css.map */
